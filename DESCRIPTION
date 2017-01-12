@@ -1,0 +1,13 @@
+Package: dcmsmuseums
+Type: Package
+Title: DCMS Museums and Galleries CSV converter
+Version: 0.1.0
+Author: Niall Goulding
+Maintainer: Niall Goulding <niall.goulding@culture.gov.uk>
+Description: The package converts the DCMS Museums & Galleries visits statistics excel spreadsheet on GOV.UK into the CSV data (https://www.gov.uk/government/statistical-data-sets/museums-and-galleries-monthly-visits)
+License: OGL
+LazyData: TRUE
+Imports:
+    readxl,
+    dplyr,
+    stringr
