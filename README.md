@@ -19,7 +19,7 @@ library(devtools)
 install_github("DCMSstats/dcmsmuseums")
 ~~~~
 
-##Installation
+##Usage
 
 ~~~~
 library(dcmsmuseums)
@@ -31,6 +31,8 @@ Where `input_xl` is the path to the statistical release excel file, e.g.
 
 And where `output_csv` is the path to the CSV file you will create, e.g.
 `"C:\\Users\\firstname.lastname\\Documents\\museums\\Museums_Output.csv"`
+
+
 
 
 

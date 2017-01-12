@@ -9,5 +9,4 @@ License: OGL
 LazyData: TRUE
 Imports:
     readxl,
-    dplyr,
     stringr
