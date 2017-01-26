@@ -43,7 +43,7 @@ dcmsmuseums <- function(inputfile,outputfile) {
       # Find where month is equal to april and locate museum name in cell above it
       if(data$X0[i]=="April"){
         # Set up initial years
-        years=c(rep(2004,8),rep(2005,4))
+        years=c(rep(2004,9),rep(2005,3))
         # Loop across each museum's individual table and add to the dataframe
         for(j in 2:dim(data)[2]){
           outj=data.frame(data$X0[i-1],years,months,data[i:(i+11),j])
